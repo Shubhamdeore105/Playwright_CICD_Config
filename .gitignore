@@ -1,8 +1,39 @@
+# Python cache
 __pycache__/
 *.py[cod]
-.venv/
 .pytest_cache/
-.DS_Store
-.env
-playwright-report/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# HTML reports and test artifacts
+reports/
 test-results/
+playwright-report/
+*.trace.zip
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+/reports_backup
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Backup file
+/reports_backup
