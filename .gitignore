@@ -1,5 +1,8 @@
-pages
-utils
-tests
-conftest
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
 .DS_Store
+.env
+playwright-report/
+test-results/
