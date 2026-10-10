@@ -16,8 +16,6 @@ def testlogin(page):
         dashboard_page.sidebar_button.click()
         dashboard_page.Profile_dropdown.click()
         dashboard_page.logout_button.click()
-
-        #Test CICD configuration
         
 
 
